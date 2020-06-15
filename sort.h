@@ -31,4 +31,5 @@ void swap(int *array, int first, int second, int size);
 int partition(int *array, int l, int r, size_t size);
 void _quicksort(int *array, int l, int r, size_t size);
 
+void shell_sort(int *array, size_t size);
 #endif /* _SORT_H */
